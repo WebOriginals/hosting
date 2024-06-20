@@ -1,0 +1,100 @@
+@import 'font.scss';
+@import 'mixins.scss';
+@import 'settings.scss';
+
+
+.light {
+  background-color: #ffffff;
+}
+
+html {
+  font-family: 'TT Norms Pro';
+}
+
+h1 {
+  @include adaptiveValue(font-size, 102, 42);
+  @apply leading-none font-semibold;
+}
+
+h2 {
+  @include adaptiveValue(font-size, 34, 34);
+  @apply leading-none font-semibold;
+}
+
+h3 {
+  @include adaptiveValue(font-size, 32, 22);
+  @apply leading-none font-semibold;
+}
+
+h4 {
+  @include adaptiveValue(font-size, 24, 20);
+  @apply leading-none font-semibold;
+}
+
+h5 {
+  @include adaptiveValue(font-size, 18, 16);
+  @apply leading-none font-semibold;
+}
+
+h6 {
+  @include adaptiveValue(font-size, 16, 16);
+  @apply leading-none font-semibold;
+}
+
+p {
+  @apply leading-none text-black text-base md:text-xl;
+}
+
+.scrollCust {
+  &::-webkit-scrollbar-button {
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 0;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 50px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #8e9ac7;
+  }
+
+  &::-webkit-resizer {
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 0;
+  }
+
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+
+  &::-webkit-scrollbar-button {
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 0;
+  }
+
+  &::-webkit-scrollbar-track {
+    //background-color: #e7e7e7;
+    border-radius: 50px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #8e9ac7;
+  }
+
+  &::-webkit-resizer {
+    background-repeat: no-repeat;
+    width: 7px;
+    height: 0;
+  }
+
+  &::-webkit-scrollbar {
+    width: 5px !important;
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "products": {
+      "products": "Products",
+      "virtualServers": "VirtualServers",
+      "WAF": "Web Security (WAF)"
+    },
+    "FAQ": "FAQ",
+    "contacts": "Contacts",
+    "bonuses": "Bonuses"
+  },
+  "day": "day",
+  "month": "month",
+  "year": "year",
+  "internet": "Internet",
+  "countries": {
+    "ru": "Russia",
+    "en": "England",
+    "de": "Germany",
+    "ne": "Netherlands"
+  },
+  "button": {
+    "callBack": "Order a service"
+  },
+  "page": {
+    "main": {
+      "TheFirst": {
+        "Title1": "Ruler",
+        "Title2": "ABS-servers",
+        "text": "Rent well-balanced servers suitable for any High-risk projects, with a Ryzen 9 5950x (4.9Ghz) processor, NVMe drives and AntiDDoS protection in every tariff",
+        "button": "Go to tariffs"
+      },
+      "question": {
+        "title": "Frequently asked questions",
+        "questionItems": [
+          {
+            "label": "What is a virtual number and what is it for?",
+            "icon": "icon-pva__plus",
+            "defaultOpen": true,
+            "content": "A virtual number is a temporary phone number that can be used to register and verify accounts in thousands of different services. It allows you to provide anonymity and protect personal data when working with various platforms."
+          },
+          {
+            "label": "How can I use virtual numbers?",
+            "icon": "icon-pva__plus",
+            "defaultOpen": false,
+            "content": "Virtual numbers from PvaBoom can be used to register in social networks, instant messengers, payment systems, online trading platforms and many other services that require phone verification"
+          },
+          {
+            "label": "How long can I use the virtual number?",
+            "icon": "icon-pva__plus",
+            "defaultOpen": false,
+            "content": "We provide: one-time activations with a temporary number valid for 20 minutes."
+          },
+          {
+            "label": "How many countries does PvaBoom support?",
+            "icon": "icon-pva__plus",
+            "defaultOpen": false,
+            "content": "We support over 180 countries, allowing our users to work with virtual numbers in different regions of the world."
+          },
+          {
+            "label": "What payment methods are available?",
+            "icon": "icon-pva__plus",
+            "defaultOpen": false,
+            "content": "You can top up your account using e-wallets, bank cards or cryptocurrency. We have a variety of convenient payment options."
+          },
+          {
+            "label": "Is it safe to use virtual numbers?",
+            "icon": "icon-pva__plus",
+            "defaultOpen": false,
+            "content": "Yes, using virtual numbers from PvaBoom is absolutely safe. Your data remains confidential, and the service allows you to ensure anonymity in any version."
+          },
+          {
+            "label": "How can I contact support if I have questions?",
+            "icon": "icon-pva__plus",
+            "defaultOpen": false,
+            "content": "You can contact our support team through the feedback form on our website, and we will answer all your questions as soon as possible."
+          },
+          {
+            "label": "Do you support API integration for automatic registration?",
+            "icon": "icon-pva__plus",
+            "defaultOpen": false,
+            "content": "Yes, we provide an API for developers who deal with auto-registration. Integrate PvaBoom into your software and automate the process of obtaining virtual numbers."
+          }
+        ]
+      },
+      "os": {
+        "title": "OS"
+      },
+      "ratesAndLocations": {
+        "title": "Available rates and locations"
+      }
+    }
+  }
+}
