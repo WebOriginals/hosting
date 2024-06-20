@@ -88,6 +88,29 @@
       },
       "ratesAndLocations": {
         "title": "Available rates and locations"
+      },
+      "whyUs": {
+        "title": "Why us?",
+        "col1": {
+          "title": "6 data centers",
+          "text": "We are developing our presence in Russia, your infrastructure was fault-tolerant, and your services worked stably"
+        },
+        "col2": {
+          "title": "Unlimited traffic",
+          "text": "We are developing our presence in Russia, your infrastructure was fault-tolerant, and your services worked stably"
+        },
+        "col3": {
+          "title": "SLA 99.9%",
+          "text": "We are developing our presence in Russia, your infrastructure was fault-tolerant, and your services worked stably"
+        },
+        "col4": {
+          "title": "5.8GHz Processors",
+          "text": "We are developing our presence in Russia, your infrastructure was fault-tolerant, and your services worked stably"
+        },
+        "col5": {
+          "title": "StormWall protection up to 2TB/s",
+          "text": "We are developing our presence in Russia, your infrastructure was fault-tolerant, and your services worked stably"
+        }
       }
     }
   }
