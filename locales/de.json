@@ -115,7 +115,83 @@
     },
     "waf": {
       "title": "WEB-Schutz",
-      "text": "Schutz für Ihr Unternehmen, der tatsächlich funktioniert"
+      "text": "Schutz für Ihr Unternehmen, der tatsächlich funktioniert",
+      "whyUs": {
+        "title": "Warum wir?",
+        "col1": {
+          "title": "6 Rechenzentren",
+          "text": "Wir bauen unsere Präsenz in Russland aus, Ihre Infrastruktur war fehlertolerant und Ihre Dienste funktionierten stabil"
+        },
+        "col2": {
+          "title": "Unbegrenzter Datenverkehr",
+          "text": "Wir bauen unsere Präsenz in Russland aus, Ihre Infrastruktur war fehlertolerant und Ihre Dienste funktionierten stabil"
+        },
+        "col3": {
+          "title": "SLA 99,9 %",
+          "text": "Wir bauen unsere Präsenz in Russland aus, Ihre Infrastruktur war fehlertolerant und Ihre Dienste funktionierten stabil"
+        },
+        "col4": {
+          "title": "5,8-GHz-Prozessoren",
+          "text": "Wir bauen unsere Präsenz in Russland aus, Ihre Infrastruktur war fehlertolerant und Ihre Dienste funktionierten stabil"
+        },
+        "col5": {
+          "title": "StormWall-Schutz bis zu 2 TB/s",
+          "text": "Wir bauen unsere Präsenz in Russland aus, Ihre Infrastruktur war fehlertolerant und Ihre Dienste funktionierten stabil"
+        }
+      },
+      "question": {
+        "title": "Häufig gestellte Fragen",
+        "questionItems": [
+          {
+            "label": "Was ist eine virtuelle Nummer und wozu dient sie?",
+            "icon": "icon-pva__plus",
+            "defaultOpen": true,
+            "Inhalt": "Eine virtuelle Nummer ist eine temporäre Telefonnummer, die zur Registrierung und Verifizierung von Konten bei Tausenden verschiedener Dienste verwendet werden kann. Sie ermöglicht Ihnen, Anonymität zu gewährleisten und persönliche Daten zu schützen, wenn Sie mit verschiedenen Plattformen arbeiten."
+          },
+          {
+            "label": "Wie kann ich virtuelle Nummern verwenden?",
+            "icon": "icon-pva__plus",
+            "defaultOpen": false,
+            "Inhalt": "Virtuelle Nummern von PvaBoom können zur Registrierung in sozialen Netzwerken, Instant Messengern, Zahlungssystemen, Online-Handelsplattformen und vielen anderen Diensten verwendet werden, die eine telefonische Verifizierung erfordern."
+          },
+          {
+            "label": "Wie lange kann ich die virtuelle Nummer nutzen?",
+            "icon": "icon-pva__plus",
+            "defaultOpen": false,
+            "content": "Wir bieten: einmalige Aktivierungen mit einer temporären Nummer, gültig für 20 Minuten."
+          },
+          {
+            "label": "Wie viele Länder unterstützt PvaBoom?",
+            "icon": "icon-pva__plus",
+            "defaultOpen": false,
+            "content": "Wir unterstützen über 180 Länder und ermöglichen unseren Benutzern, mit virtuellen Nummern in verschiedenen Regionen der Welt zu arbeiten."
+          },
+          {
+            "label": "Welche Zahlungsmethoden stehen zur Verfügung?",
+            "icon": "icon-pva__plus",
+            "defaultOpen": false,
+            "content": "Sie können Ihr Konto mit E-Wallets, Bankkarten oder Kryptowährung aufladen. Wir haben eine Vielzahl bequemer Zahlungsmöglichkeiten."
+          },
+          {
+            "label": "Ist es sicher, virtuelle Nummern zu verwenden?",
+            "icon": "icon-pva__plus",
+            "defaultOpen": false,
+            "content": "Ja, die Verwendung virtueller Nummern von PvaBoom ist absolut sicher. Ihre Daten bleiben vertraulich und der Dienst ermöglicht Ihnen, in jeder Version Anonymität zu gewährleisten."
+          },
+          {
+            "label": "Wie kann ich den Support kontaktieren, wenn ich Fragen habe?",
+            "icon": "icon-pva__plus",
+            "defaultOpen": false,
+            "content": "Sie können unser Support-Team über das Feedback-Formular auf unserer Website kontaktieren und wir werden alle Ihre Fragen so schnell wie möglich beantworten."
+          },
+          {
+            "label": "Unterstützen Sie die API-Integration für die automatische Registrierung?",
+            "icon": "icon-pva__plus",
+            "defaultOpen": false,
+            "content": "Ja, wir stellen eine API für Entwickler bereit, die sich mit der automatischen Registrierung befassen. Integrieren Sie PvaBoom in Ihre Software und automatisieren Sie den Prozess der Beschaffung virtueller Nummern."
+          }
+        ]
+      }
     }
   }
 }

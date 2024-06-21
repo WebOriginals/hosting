@@ -4,6 +4,8 @@
 
 <template>
   <waf-interior-first/>
+  <waf-why-us/>
+  <waf-the-question/>
 </template>
 
 <style scoped lang="scss">
