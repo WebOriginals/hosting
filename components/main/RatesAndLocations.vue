@@ -221,7 +221,7 @@ const style = {
     shadow: '',
     padding: 'p-1 mb-10',
     height: 'h-10',
-    width: 'w-full md:w-1/4',
+    width: 'w-full sm:w-2/4 xl:w-1/4',
     marker: {
       wrapper: 'absolute top-[4px] left-[4px] duration-200 ease-out focus:outline-none',
       base: 'w-full h-full border border-primary-300',
