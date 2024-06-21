@@ -112,6 +112,10 @@
           "text": "Wir bauen unsere Präsenz in Russland aus, Ihre Infrastruktur war fehlertolerant und Ihre Dienste funktionierten stabil"
         }
       }
+    },
+    "waf": {
+      "title": "WEB-Schutz",
+      "text": "Schutz für Ihr Unternehmen, der tatsächlich funktioniert"
     }
   }
 }

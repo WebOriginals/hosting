@@ -112,6 +112,10 @@
           "text": "We are developing our presence in Russia, your infrastructure was fault-tolerant, and your services worked stably"
         }
       }
+    },
+    "waf": {
+      "title": "WEB protection",
+      "text": "Protection for your business that actually works"
     }
   }
 }
