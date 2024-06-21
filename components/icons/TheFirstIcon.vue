@@ -92,6 +92,6 @@
 
 <style scoped lang="scss">
 .first-ic{
-  @apply w-[230px] h-[216px] md:w-[430px] md:h-[416px]
+  @apply w-[230px] h-[216px] xl:w-[430px] xl:h-[416px]
 }
 </style>

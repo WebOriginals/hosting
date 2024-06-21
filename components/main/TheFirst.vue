@@ -30,7 +30,7 @@ h1 {
 .first{
 
   &-grid{
-    @apply grid md:grid-cols-[1fr_415px] gap-4 md:gap-44 justify-items-center;
+    @apply grid md:grid-cols-[5fr_1fr] gap-4 md:gap-12 xl:gap-44 justify-items-center items-center;
 
     &__text{
       @apply grid gap-7 md:gap-10 max-md:justify-items-center

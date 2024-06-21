@@ -12,7 +12,7 @@ html {
 }
 
 h1 {
-  @include adaptiveValue(font-size, 102, 42);
+  @include adaptiveValue(font-size, 102, 36);
   @apply leading-none font-semibold;
 }
 
