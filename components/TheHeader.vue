@@ -15,7 +15,7 @@ const openMenu = () => {
         <icons-the-logo />
       </nuxt-link>
       <nav class="header__nav header-nav">
-        <ui-dropdown-header />
+        <ui-drop-down-list/>
         <NuxtLink class="header-nav__link" :to="localePath('#fifty')">{{ $t('nav.FAQ') }}</NuxtLink>
         <NuxtLink class="header-nav__link" :to="localePath('/contacts')">{{ $t('nav.contacts') }}</NuxtLink>
         <NuxtLink class="header-nav__link" :to="localePath('/referal')">{{ $t('nav.bonuses') }}</NuxtLink>
@@ -29,6 +29,9 @@ const openMenu = () => {
                              @click="openMenu"></icons-the-burger-menu>
       <div v-if="IsOpenMenu" class="header__mobile header-mobile lg:hidden" :class="{ IsOpenMenu: open }">
         <div class="header-mobile__body">
+          <icons-the-burger-menu class="md:hidden ml-auto mb-4"
+                                 :class="{ open: IsOpenMenu }"
+                                 @click="openMenu"></icons-the-burger-menu>
           <div class="header-mobile__wrapper">
             <ui-base-button :label="$t('button.callBack')"
                             variant="soft"
@@ -36,12 +39,9 @@ const openMenu = () => {
                             size="lg"
                             icon="minute:telegram-fill" />
             <UiTheLangSwitcher class="h-9 langSelect"></UiTheLangSwitcher>
-            <icons-the-burger-menu class="md:hidden"
-                                   :class="{ open: IsOpenMenu }"
-                                   @click="openMenu"></icons-the-burger-menu>
           </div>
           <nav class="header-mobile__nav header-mobile-nav">
-            <ui-dropdown-header />
+            <ui-drop-down-list/>
             <NuxtLink class="header-nav__link" :to="localePath('#fifty')">{{ $t('nav.FAQ') }}</NuxtLink>
             <NuxtLink class="header-nav__link" :to="localePath('/contacts')">{{ $t('nav.contacts') }}</NuxtLink>
             <NuxtLink class="header-nav__link" :to="localePath('/referal')">{{ $t('nav.bonuses') }}</NuxtLink>
