@@ -4,6 +4,7 @@
 
 <template>
   <waf-interior-first/>
+  <waf-the-rates/>
   <waf-why-us/>
   <waf-the-question/>
 </template>
