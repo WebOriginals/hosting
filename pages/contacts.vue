@@ -3,7 +3,7 @@
 </script>
 
 <template>
-
+  <contacts-the-contacts/>
 </template>
 
 <style scoped lang="scss">
