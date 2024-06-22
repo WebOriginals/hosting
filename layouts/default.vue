@@ -1,9 +1,10 @@
 <template>
   <div class="wrapper" :class="{ lock: lockScrollValue }">
-    <TheHeader @lock-scroll="lockScroll" />
+    <the-header @lock-scroll="lockScroll" />
     <main class="page" >
       <slot></slot>
     </main>
+    <the-footer/>
   </div>
 </template>
 
