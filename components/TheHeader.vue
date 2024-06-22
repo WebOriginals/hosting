@@ -54,7 +54,7 @@ const openMenu = () => {
 
 <style scoped lang="scss">
 .header {
-  @apply py-6 md:py-12;
+  @apply py-6 md:py-12 relative z-20;
 
   &__container {
     @apply grid grid-cols-[1fr_30px] md:grid-cols-[1fr_3fr_3fr] lg:grid-cols-3 justify-between items-center;

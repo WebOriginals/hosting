@@ -6,27 +6,27 @@
   <section class="internalFirst">
     <div class="internalFirst__container">
       <div class="internalFirst__gradient">
-        <h1>{{$t('page.waf.title')}}</h1>
+        <h1>{{$t('page.contacts.title')}}</h1>
         <ul class="internalFirst__list">
           <li>
-            <p>бесплатно с любого номера</p>
+            <p>{{$t('page.contacts.tel')}}</p>
             <span>+372 57488752</span>
           </li>
           <li>
-            <p>работаем круглосуточно</p>
+            <p>{{$t('page.contacts.email')}}</p>
             <span>support@ou.digital</span>
           </li>
           <li>
-            <p>телеграм-бот для быстрых вопросов</p>
+            <p>{{$t('page.contacts.bot')}}</p>
             <span>@ouhosting_bot</span>
           </li>
           <li>
-            <p>юридическая информация</p>
+            <p>{{$t('page.contacts.ur')}}</p>
             <span>CloudWebhosting OÜ (16943169 register code)</span>
           </li>
         </ul>
         <div class="internalFirst__soc">
-          <p>социальные сети</p>
+          <p>{{$t('page.contacts.soc')}}</p>
           <!--TODO добавить ссылку для соц сети-->
           <a href="#">
             <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">

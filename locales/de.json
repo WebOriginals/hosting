@@ -192,6 +192,14 @@
           }
         ]
       }
+    },
+    "contacts": {
+      "title": "Kontakte",
+      "tel": "frei von jeder Nummer",
+      "email": "Wir arbeiten rund um die Uhr",
+      "bot": "Telegramm-Bot für schnelle Fragen",
+      "ur": "rechtliche Informationen",
+      "soc": "Soziale Netzwerke"
     }
   }
 }

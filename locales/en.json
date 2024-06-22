@@ -192,6 +192,14 @@
           "text": "We are developing our presence in Russia, your infrastructure was fault-tolerant, and your services worked stably"
         }
       }
+    },
+    "contacts": {
+      "title": "Contacts",
+      "tel": "free from any number",
+      "email": "we work around the clock",
+      "bot": "telegram bot for quick questions",
+      "ur": "legal information",
+      "soc": "social networks"
     }
   }
 }
