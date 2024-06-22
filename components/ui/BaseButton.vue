@@ -53,7 +53,7 @@ const soft = {
   dark: 'dark:text-white dark:bg-{color}-900 ',
   darkFocus: '',
   darkHover: 'dark:hover:bg-{color}-500 dark:hover:text-white',
-  light: 'text-black bg-sky-200',
+  light: 'text-black bg-sky-200/50 font-normal',
   lightFocus: '',
   lightHover: 'hover:bg-{color}-100 hover:text-{color}-600',
 };
