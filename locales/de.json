@@ -193,6 +193,20 @@
         ]
       }
     },
+    "referral": {
+      "first": {
+        "title": "Verweisungs - System",
+        "subTitle": "Bringen Sie Freunde, Abonnenten und jeden mit, dem Sie das Hosting empfehlen möchten"
+      },
+      "calc":{
+        "title": "Einkommensrechner",
+        "numberClients": "Angezogene Kunden",
+        "averageClientExpenses": "durchschnittliche Kundenausgaben, €",
+        "oneMonth": "Einkommen für 1 Monat",
+        "sixMonth": "Einkommen für 6 Monat",
+        "twelveMonth": "Einkommen für 12 Monat"
+      }
+    },
     "contacts": {
       "title": "Kontakte",
       "tel": "frei von jeder Nummer",

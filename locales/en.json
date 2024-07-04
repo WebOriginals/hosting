@@ -193,6 +193,20 @@
         }
       }
     },
+    "referral": {
+      "first": {
+        "title": "Referral system",
+        "subTitle": "bring friends, subscribers and anyone you are willing to recommend ouhosting to"
+      },
+      "calc":{
+        "title": "Income calculator",
+        "numberClients": "clients attracted",
+        "averageClientExpenses": "average client expenses, €",
+        "oneMonth": "income for 1 month",
+        "sixMonth": "income for 6 months",
+        "twelveMonth": "income for 12 months"
+      }
+    },
     "contacts": {
       "title": "Contacts",
       "tel": "free from any number",
