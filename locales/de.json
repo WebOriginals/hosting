@@ -273,6 +273,9 @@
             "content": "Ja, wir stellen eine API für Entwickler bereit, die sich mit der automatischen Registrierung befassen. Integrieren Sie PvaBoom in Ihre Software und automatisieren Sie den Prozess der Beschaffung virtueller Nummern."
           }
         ]
+      },
+      "schemeWork": {
+        "title": "Workflow"
       }
     },
     "contacts": {

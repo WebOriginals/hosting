@@ -273,6 +273,9 @@
             "content": "Yes, we provide an API for developers who deal with auto-registration. Integrate PvaBoom into your software and automate the process of obtaining virtual numbers."
           }
         ]
+      },
+      "schemeWork": {
+        "title": "Workflow"
       }
     },
     "contacts": {

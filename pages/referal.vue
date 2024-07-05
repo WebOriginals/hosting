@@ -6,6 +6,7 @@
   <referal-the-first/>
   <referal-the-calc/>
   <referal-why-us/>
+  <referal-scheme-work/>
   <referal-the-question/>
 </template>
 
