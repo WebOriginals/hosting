@@ -285,6 +285,22 @@
       "bot": "Telegramm-Bot für schnelle Fragen",
       "ur": "rechtliche Informationen",
       "soc": "Soziale Netzwerke"
+    },
+    "NotFoundPage": {
+      "title": "Seite nicht gefunden",
+      "info": "Anscheinend haben wir diese Seite in der virtuellen Wildnis verloren. Bitte verwenden Sie die Navigation oben, um sich zurechtzufinden, oder kehren Sie zur Hauptseite zurück, um von vorne zu beginnen.",
+      "link": "Zur Hauptseite"
+    },
+    "Cookie": {
+      "title": "Wir verwenden Cookies",
+      "description": "Es ist sicher: Cookies werden nur auf Ihrem Gerät gespeichert. Wenn Sie nichts dagegen haben, klicken Sie auf «Alle Cookies akzeptieren» oder surfen Sie weiter auf der Website.",
+      "link": "Richtlinie zur Verarbeitung personenbezogener Daten.",
+      "btn_accept": "Akzeptieren",
+      "btn_settings": "Konfigurieren",
+      "btn_accept_all": "Alle Cookies akzeptieren",
+      "min": "Unbedingt erforderliche Cookies",
+      "mid": "Cookies, die die Systemfunktionalität verbessern",
+      "ceo": "Marketing-Cookies"
     }
   }
 }

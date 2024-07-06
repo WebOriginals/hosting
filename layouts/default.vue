@@ -5,6 +5,7 @@
       <slot></slot>
     </main>
     <the-footer/>
+    <the-cookie-modal />
   </div>
 </template>
 
