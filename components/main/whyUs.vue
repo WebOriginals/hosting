@@ -24,6 +24,9 @@ const { t } = useI18n();
         <div class="whyUs__col whyUs__col4">
           <h4>{{ $t('page.main.whyUs.col4.title') }}</h4>
           <p>{{ $t('page.main.whyUs.col4.text') }}</p>
+          <div class="whyUs-col4__img">
+            <img src="/img/cpu2.png" alt="">
+          </div>
         </div>
         <div class="whyUs__col whyUs__col5">
           <h4>{{ $t('page.main.whyUs.col5.title') }}</h4>
@@ -46,7 +49,7 @@ const { t } = useI18n();
 		      "col5"
 		      "col4";
 
-    @media only screen and (min-width: 480px){
+    @media only screen and (min-width: 768px){
       grid: "col1 col1"
             "col2 col3"
             "col4 col5";
@@ -98,18 +101,25 @@ const { t } = useI18n();
 
   &__col4{
     grid-area: col4;
-    @apply bg-[url('/img/col4.png')] bg-no-repeat bg-bottom relative pb-60 sm:pb-80 max-lg:bg-[length:100%];
+    //background-position: -9.5rem 12rem;
+
+    @apply bg-[url('/img/col4.png')] bg-no-repeat bg-[0rem_18rem] md:bg-[0rem_16rem] lg:bg-[0rem_18rem] relative pb-72 sm:pb-72 bg-[length:100%] ;
 
     &:before{
       content: "";
       z-index: -1;
       @apply bg-[url('/img/col44.png')] bg-no-repeat  bg-cover bg-bottom absolute w-full h-full top-0 left-0
     }
+
+   & .whyUs-col4__img{
+     animation: moveUpAndDown 4s ease-in-out infinite;
+      @apply absolute bottom-0 left-0 w-full flex justify-center items-center;
+    }
   }
 
   &__col5{
     grid-area: col5;
-    @apply text-white bg-[url('/img/col5.png')] bg-no-repeat bg-bottom relative pb-96 sm:pb-80  max-lg:bg-[length:100%];
+    @apply text-white bg-[url('/img/col5.png')] bg-no-repeat bg-bottom relative pb-72 sm:pb-72  max-lg:bg-[length:100%];
 
     p{
       @apply text-white;
@@ -120,6 +130,15 @@ const { t } = useI18n();
       z-index: -1;
       @apply bg-[url('/img/col55.png')] bg-no-repeat  bg-cover bg-bottom absolute w-full h-full top-0 left-0
     }
+  }
+}
+
+@keyframes moveUpAndDown {
+  0%, 100% {
+    transform: translateY(30px);
+  }
+  50% {
+    transform: translateY(0px);
   }
 }
 
