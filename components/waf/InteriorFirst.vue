@@ -40,7 +40,19 @@
   }
 
   &__img{
+    @media only screen and (min-width: 1024px) {
+      animation: swing 4s linear infinite;
+    }
+
     @apply absolute top-28 -right-16  sm:w-2/3 sm:top-2 sm:-right-36  lg:-right-60 lg:-top-32
+  }
+}
+@keyframes swing {
+  0%, 100% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1);
   }
 }
 </style>

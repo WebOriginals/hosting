@@ -76,6 +76,10 @@
   }
 
   &__img{
+    @media only screen and (min-width: 1024px) {
+      animation: swing 4s ease infinite;
+    }
+
     @apply max-lg:origin-center w-2/3 max-lg:-rotate-[25deg] absolute -bottom-24 -right-8  sm:-bottom-48 sm:-right-24  lg:-right-24 lg:-top-52
   }
 
@@ -104,6 +108,14 @@
     p{
       @apply text-white/50 text-sm mb-4
     }
+  }
+}
+@keyframes swing {
+  0%, 100% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1);
   }
 }
 </style>

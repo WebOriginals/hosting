@@ -44,7 +44,22 @@
   }
 
   &__img{
-    @apply absolute -bottom-[40%] -right-0 w-[164px]  sm:w-[250px] sm:top-48 sm:-right-6  lg:w-[660px] lg:-right-40 lg:-top-24 xl:w-[800px] xl:-right-60
+    @media only screen and (min-width: 1024px) {
+      animation: swing 3s linear infinite;
+    }
+
+    @apply absolute -bottom-[40%] -right-0 w-[164px]  sm:w-[250px] sm:top-48 sm:-right-6  lg:w-[660px] lg:-right-40 lg:-top-24 xl:w-[800px] xl:-right-60;
+  }
+}
+@keyframes swing {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(10deg);
+  }
+  75% {
+    transform: rotate(-10deg);
   }
 }
 </style>
