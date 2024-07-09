@@ -30,8 +30,8 @@ const scrollToSection = () => {
                   @click.prevent="scrollToSection"
                   v-if="router.currentRoute.value.path !== URL_CONTACT"
         >{{ $t('nav.FAQ') }}</NuxtLink>
-        <NuxtLink class="header-nav__link" :to="localePath('/contacts')">{{ $t('nav.contacts') }}</NuxtLink>
         <NuxtLink class="header-nav__link" :to="localePath('/referal')">{{ $t('nav.bonuses') }}</NuxtLink>
+        <NuxtLink class="header-nav__link" :to="localePath('/contacts')">{{ $t('nav.contacts') }}</NuxtLink>
       </nav>
       <div class="header__right">
         <ui-the-lang-switcher />
@@ -66,8 +66,8 @@ const scrollToSection = () => {
                       v-if="router.currentRoute.value.path !== URL_CONTACT"
                       @click="openMenu"
             >{{ $t('nav.FAQ') }}</NuxtLink>
-            <NuxtLink class="header-mobile-nav__link" :to="localePath('/contacts')" @click="openMenu">{{ $t('nav.contacts') }}</NuxtLink>
             <NuxtLink class="header-mobile-nav__link" :to="localePath('/referal')" @click="openMenu">{{ $t('nav.bonuses') }}</NuxtLink>
+            <NuxtLink class="header-mobile-nav__link" :to="localePath('/contacts')" @click="openMenu">{{ $t('nav.contacts') }}</NuxtLink>
           </nav>
         </div>
       </div>
