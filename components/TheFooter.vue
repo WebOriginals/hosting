@@ -1,12 +1,16 @@
 <script setup lang="ts">
+const currentYear = ref(new Date().getFullYear());
 
+onMounted(() => {
+  currentYear.value = new Date().getFullYear();
+});
 </script>
 
 <template>
 <section class="footer">
   <div class="footer__container">
     <icons-the-logo/>
-    <p>©2023. All right reserved.</p>
+    <p>©{{currentYear}}. All right reserved.</p>
   </div>
 </section>
 </template>
