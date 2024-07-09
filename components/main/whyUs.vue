@@ -31,6 +31,9 @@ const { t } = useI18n();
         <div class="whyUs__col whyUs__col5">
           <h4>{{ $t('page.main.whyUs.col5.title') }}</h4>
           <p>{{ $t('page.main.whyUs.col5.text') }}</p>
+          <div class="whyUs-col5__img">
+            <img src="/img/col-5.png" alt="">
+          </div>
         </div>
       </div>
     </div>
@@ -101,7 +104,6 @@ const { t } = useI18n();
 
   &__col4{
     grid-area: col4;
-    //background-position: -9.5rem 12rem;
 
     @apply bg-[url('/img/col4.png')] bg-no-repeat bg-[0rem_18rem] md:bg-[0rem_16rem] lg:bg-[0rem_18rem] relative pb-72 sm:pb-72 bg-[length:100%] ;
 
@@ -119,10 +121,20 @@ const { t } = useI18n();
 
   &__col5{
     grid-area: col5;
-    @apply text-white bg-[url('/img/col5.png')] bg-no-repeat bg-bottom relative pb-72 sm:pb-72  max-lg:bg-[length:100%];
+    @apply text-white  bg-no-repeat bg-bottom relative pb-72 sm:pb-72  overflow-hidden;
 
     p{
       @apply text-white;
+    }
+
+    & .whyUs-col5__img{
+      animation: moveDownAndDown 4s ease-in-out infinite;
+      @apply absolute -bottom-6 -left-6 w-full flex justify-center items-center;
+
+      img{
+        @apply lg:max-w-[150%]
+      }
+
     }
 
     &:before{
@@ -141,5 +153,12 @@ const { t } = useI18n();
     transform: translateY(0px);
   }
 }
-
+@keyframes moveDownAndDown {
+  0%, 100% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(-20px, -20px);
+  }
+}
 </style>

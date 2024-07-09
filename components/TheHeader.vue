@@ -109,12 +109,15 @@ const scrollToSection = () => {
       &__link {
         @apply py-2  block text-base;
 
+
+
         @media (any-hover: hover) {
           &:hover {
             @apply text-sky-600 dark:text-sky-400;
           }
         }
       }
+
     }
 
     &__wrapper {
